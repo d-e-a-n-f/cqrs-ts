@@ -6,6 +6,7 @@ const project = new typescript.TypeScriptAppProject({
   package: true,
   npmTokenSecret: 'CQRS_TS_NPM_TOKEN',
   release: true,
+  mutableBuilds: false,
   releaseToNpm: true
 
   // deps: [],                /* Runtime dependencies of this module. */
