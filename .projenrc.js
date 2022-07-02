@@ -6,8 +6,8 @@ const project = new typescript.TypeScriptAppProject({
   package: true,
   npmTokenSecret: 'CQRS_TS_NPM_TOKEN',
   release: true,
-  mutableBuilds: true,
-  releaseToNpm: true
+  mutableBuilds: false,
+  releaseToNpm: true,
 
   // deps: [],                /* Runtime dependencies of this module. */
   // description: undefined,  /* The description is just a string that helps people understand the purpose of the package. */
