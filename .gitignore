@@ -47,4 +47,3 @@ junit.xml
 !/src/
 /lib
 /dist/
-!/.eslintrc.json
