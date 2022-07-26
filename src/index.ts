@@ -1,4 +1,4 @@
-export * from './ICommand';
-export * from './ICommandConfig';
-export * from './ICommandFactory';
-export * from './ICommandResponse';
+export * as ICommand from './ICommand';
+export * as ICommandConfig from './ICommandConfig';
+export * as ICommandFactory from './ICommandFactory';
+export * as ICommandResponse from './ICommandResponse';
