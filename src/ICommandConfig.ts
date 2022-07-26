@@ -1,4 +1,4 @@
-export default interface ICommandConfig {
+export interface ICommandConfig {
   commandName: string;
   args: any;
 };
