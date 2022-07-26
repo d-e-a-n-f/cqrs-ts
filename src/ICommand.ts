@@ -1,5 +1,5 @@
 import { ICommandResponse } from './ICommandResponse';
 
-export default interface ICommand {
+export interface ICommand {
   execute: () => ICommandResponse;
 };
