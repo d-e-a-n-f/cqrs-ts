@@ -7,5 +7,6 @@ const project = new typescript.TypeScriptAppProject({
   release: true,
   mutableBuilds: false,
   releaseToNpm: true,
+  eslint: false
 });
 project.synth();
